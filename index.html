@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="./styles.css">
+    <link src="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+
+    <title>FreeCodeCamp | Form</title>
+</head>
+
+<main>
+  <h1 id="title" class="header">
+    Your feedback is important to us!
+  </h1>
+
+  <p id="description">
+    <br> This is a short survey form to help us improve our learning resources. <br> Your feedback will allow us to
+    develop <br> new learning materials based on your actual needs! <br> Thank you, in advance, for your participation!
+    <br> <br>
+  </p>
+
+  <body>
+    <form id="survey-form" action="https://crossorigin.me/https://freecodecamp.com" method="POST">
+      <br>
+      <label id="name-label" for="name"> Name: </label>
+      <input class="height" autofocus id="name" name="name" type="text" placeholder="Your name" required>
+      <br>
+      <br>
+      <label id="email-label" for="email"> E-mail: </label>
+      <input class="height" id="email" name="email" type="email" placeholder="Enter your email" required>
+      <br>
+      <br>
+      <label id="number-label" for="number"> Age: </label>
+      <input class="height" id="number" name="number" type="number" min="1" max="90" step="1" placeholder="Age" required>
+      <br>
+      <br>
+      <label id="role" for="dropdown">Current role</label>
+      <select class="height" id="dropdown" name="roles">
+        <option value="student">Student</option>
+        <option value="fulltime">Full Time Job</option>
+        <option value="learner"> Full Time Learner </option>
+        <option value="other">Other</option>
+      </select>
+      <br>
+      <br>
+      <label id="other" for="specify"> If you chose other, please, specify:</label>
+
+      <br>
+      <input class="height" id="specify" name="other" type="text">
+      <br>
+      <br>
+      <label for="question"> How well do you speak the language? </label>
+      <br>
+      <label for="Not"> Not at all </label>
+      <input type="radio" id="not" name="level" value="not">
+      <br>
+      <label for="beginner"> Beginner </label>
+      <input type="radio" id="beginner" name="level" value="beginner">
+      <br>
+      <label for="intermediate"> Intermediate </label>
+      <input type="radio" id="intermediate" name="level" value="intermediate">
+      <br>
+      <label for="advanced"> Advanced </label>
+      <input type="radio" id="advanced" name="level" value="advanced">
+      <br>
+      <br>
+      <label for="improve">Things that should be improved in the future <br> (please check all that apply):</label>
+      <br>
+      <label for="vocabulary"> Vocabulary </label>
+      <input type="checkbox" name="improved" value="vocabulary" id="vocabulary">
+      <br>
+      <label for="reading"> Reading practice </label>
+      <input type="checkbox" name="improved" value="reading" id="reading">
+      <br>
+      <label for="grammar"> Grammar presentations </label>
+      <input type="checkbox" name="improved" value="grammar" id="grammar">
+      <br>
+      <label for="exercises"> Our self-assessment exercises </label>
+      <input type="checkbox" name="improved" value="exercises" id="exercises">
+      <br>
+      <label for="listening"> Listening resources </label>
+      <input type="checkbox" name="improved" value="listening" id="listening">
+      <br>
+      <label for="lessons"> More volunteer led online lessons </label>
+      <input type="checkbox" name="improved" value="lessons" id="lessons">
+      <br>
+      <label for="videos"> More video lessons </label>
+      <input type="checkbox" name="improved" value="videos" id="videos">
+      <br>
+      <label for="conversation"> More conversation practice sessions </label>
+      <input type="checkbox" name="improved" value="conversation" id="conversation">
+      <br>
+      <br>
+      <label for="textarea"> Any comments or suggestions for improvement? What else would you like us to add to the
+        website? </label>
+      <br>
+      <br>
+      <textarea id="textarea" name="textarea" rows="10" cols="80">
+  We would love to listen to your recommendations!
+  </textarea>
+      <br>
+      <br>
+      <input type="submit" value="Submit" name="submit" id="submit">
+      <br>
+      <br>
+    </form>
+    <br>
+    <br>
+  </body>
+
+</main>
+
+</html>

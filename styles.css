@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+body {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.05 rem;
+  font-family: Poppins, Calibri, sans;
+  background-color: rgb(255, 199, 64)
+}
+
+.header {
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  font-style: bold;
+  font-weight: 500;
+  width: 80%;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.height { 
+  height: 1.5rem;
+  border-radius: 5px;
+}
+
+#survey-form {
+  background-color: rgba(255,255,255,0.8);;
+  border-radius: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#name {
+  width: 30%;
+}
+
+#email,
+#specify {
+  width: 20%;
+}
+
+#number {
+  width: 50px;
+}
+
+#dropdown {
+  width: 35%;
+}
+
+[type="checkbox"] {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+textarea {
+  display: block;
+  width: 80%;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+[type="submit"] {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 0.09em;
+  font-family: Poppins, Calibri, sans; 
+}
